@@ -1,0 +1,1010 @@
+[
+    {
+        "PDF Text":"DAY 2 PLANNING THE"
+    },
+    {
+        "PDF Text":"TECHNICAL FOUNDATION"
+    },
+    {
+        "PDF Text":"Prepared by Ameen Alam"
+    },
+    {
+        "PDF Text":"DAY 2 PLANNING THE TECHNICAL FOUNDATION"
+    },
+    {
+        "PDF Text":"First published: PKT 11:08 AM, January 15, 2025"
+    },
+    {
+        "PDF Text":"Document Revision Information"
+    },
+    {
+        "PDF Text":"Version Date Amendment Author"
+    },
+    {
+        "PDF Text":"1.0 11:08 AM, January 15, 2025 Initial release of Day1 Ameen Alam"
+    },
+    {
+        "PDF Text":"1.1 03:00 PM, January 15, 2025 Added Examples in Day1 Ameen Alam"
+    },
+    {
+        "PDF Text":"2.0 01:00 PM, January 16, 2025 Day 2 Release Ameen Alam"
+    },
+    {
+        "PDF Text":"Table of Contents"
+    },
+    {
+        "PDF Text":"Hackathon Day 2: Planning the Technical Foundation ............................................................. 2"
+    },
+    {
+        "PDF Text":"Day 2 Goal ......................................................................................................................... 2"
+    },
+    {
+        "PDF Text":"Recap of Day 1: Business Focus .......................................................................................... 2"
+    },
+    {
+        "PDF Text":"Day 2 Activities: Transitioning to Technical Planning ............................................................ 3"
+    },
+    {
+        "PDF Text":"1. Define Technical Requirements ................................................................................... 3"
+    },
+    {
+        "PDF Text":"2. Design System Architecture ......................................................................................... 3"
+    },
+    {
+        "PDF Text":"3. Plan API Requirements ................................................................................................ 4"
+    },
+    {
+        "PDF Text":"4. Write Technical Documentation ................................................................................... 6"
+    },
+    {
+        "PDF Text":"5. Collaborate and Refine ................................................................................................ 7"
+    },
+    {
+        "PDF Text":"Key Outcome of Day 2 ........................................................................................................ 8"
+    },
+    {
+        "PDF Text":"Industry Best Practices to Emphasize .................................................................................. 9"
+    },
+    {
+        "PDF Text":"Submission Guidelines ..................................................................................................... 10"
+    },
+    {
+        "PDF Text":"What\u2019s Next? .................................................................................................................... 10"
+    },
+    {
+        "PDF Text":"PREPARED BY AMEEN ALAM 1"
+    },
+    {
+        "PDF Text":"DAY 2 PLANNING THE TECHNICAL FOUNDATION"
+    },
+    {
+        "PDF Text":"Hackathon Day 2: Planning the Technical Foundation"
+    },
+    {
+        "PDF Text":"Day 2 Goal"
+    },
+    {
+        "PDF Text":"The primary goal of Day 2 is to transition from the business-oriented planning of Day 1"
+    },
+    {
+        "PDF Text":"to the technical preparation required to build your marketplace. Today, you will create a"
+    },
+    {
+        "PDF Text":"high-level technical plan, including system architecture, workflows, and API"
+    },
+    {
+        "PDF Text":"requirements, which will act as a blueprint for the implementation phase. This planning"
+    },
+    {
+        "PDF Text":"stage is directly connected to the business goals defined on Day 1, ensuring that your"
+    },
+    {
+        "PDF Text":"technical solutions align with the marketplace's purpose and provide a strong"
+    },
+    {
+        "PDF Text":"foundation for success. This step is essential for frontend developers as it ensures"
+    },
+    {
+        "PDF Text":"alignment with business goals while leveraging tools like Sanity CMS and third-party"
+    },
+    {
+        "PDF Text":"APIs to simplify backend requirements and focus on delivering a scalable and e(cid:431)ective"
+    },
+    {
+        "PDF Text":"solution."
+    },
+    {
+        "PDF Text":"This structured approach mirrors industry best practices and ensures you are prepared"
+    },
+    {
+        "PDF Text":"to launch a functional marketplace within the hackathon timeline."
+    },
+    {
+        "PDF Text":"Recap of Day 1: Business Focus"
+    },
+    {
+        "PDF Text":"On Day 1, we emphasized the importance of focusing on business requirements before"
+    },
+    {
+        "PDF Text":"jumping into technical implementation. Here\u2019s what we achieved:"
+    },
+    {
+        "PDF Text":"1. Business Goals Defined:"
+    },
+    {
+        "PDF Text":"o You identified the problem your marketplace aims to solve."
+    },
+    {
+        "PDF Text":"o You defined your target audience and the unique value proposition (UVP) of"
+    },
+    {
+        "PDF Text":"your marketplace."
+    },
+    {
+        "PDF Text":"2. Data Schema Drafted:"
+    },
+    {
+        "PDF Text":"o Using paper and pencil, you created a preliminary data schema outlining"
+    },
+    {
+        "PDF Text":"entities like products, orders, customers, and their relationships."
+    },
+    {
+        "PDF Text":"3. Single Focus:"
+    },
+    {
+        "PDF Text":"o By concentrating on business requirements without technical distractions,"
+    },
+    {
+        "PDF Text":"you set a solid foundation for the technical phase."
+    },
+    {
+        "PDF Text":"These achievements are critical as they ensure your marketplace aligns with real-world"
+    },
+    {
+        "PDF Text":"business needs."
+    },
+    {
+        "PDF Text":"PREPARED BY AMEEN ALAM 2"
+    },
+    {
+        "PDF Text":"DAY 2 PLANNING THE TECHNICAL FOUNDATION"
+    },
+    {
+        "PDF Text":"Day 2 Activities: Transitioning to Technical Planning"
+    },
+    {
+        "PDF Text":"1. Define Technical Requirements"
+    },
+    {
+        "PDF Text":"The first step is to translate your business goals into clear technical requirements. For"
+    },
+    {
+        "PDF Text":"each feature identified on Day 1, outline the following:"
+    },
+    {
+        "PDF Text":"\uf0b7 Frontend Requirements:"
+    },
+    {
+        "PDF Text":"o User-friendly interface for browsing products."
+    },
+    {
+        "PDF Text":"o Responsive design for mobile and desktop users."
+    },
+    {
+        "PDF Text":"o Essential pages: Home, Product Listing, Product Details, Cart, Checkout,"
+    },
+    {
+        "PDF Text":"and Order Confirmation."
+    },
+    {
+        "PDF Text":"\uf0b7 Sanity CMS as Backend:"
+    },
+    {
+        "PDF Text":"o Use Sanity CMS to manage product data, customer details, and order"
+    },
+    {
+        "PDF Text":"records. Sanity acts as the database for your marketplace."
+    },
+    {
+        "PDF Text":"o Focus on designing schemas in Sanity to align with the business goals"
+    },
+    {
+        "PDF Text":"from Day 1."
+    },
+    {
+        "PDF Text":"\uf0b7 Third-Party APIs:"
+    },
+    {
+        "PDF Text":"o Integrate APIs for shipment tracking, payment gateways, and other"
+    },
+    {
+        "PDF Text":"required backend services."
+    },
+    {
+        "PDF Text":"o Ensure APIs provide the necessary data for frontend functionality."
+    },
+    {
+        "PDF Text":"2. Design System Architecture"
+    },
+    {
+        "PDF Text":"Create a high-level diagram showing how your system components interact. Use tools"
+    },
+    {
+        "PDF Text":"like pen and paper or software like Lucidchart, Figma or Excalidraw. For example, a"
+    },
+    {
+        "PDF Text":"more detailed architecture might include workflows such as:"
+    },
+    {
+        "PDF Text":"[Frontend (Next.js)]"
+    },
+    {
+        "PDF Text":"|"
+    },
+    {
+        "PDF Text":"[Sanity CMS] ---------> [Product Data API]"
+    },
+    {
+        "PDF Text":"|"
+    },
+    {
+        "PDF Text":"[Third-Party API] -----> [Shipment Tracking API]"
+    },
+    {
+        "PDF Text":"|"
+    },
+    {
+        "PDF Text":"[Payment Gateway]"
+    },
+    {
+        "PDF Text":"In this architecture, a typical data flow could look like this:"
+    },
+    {
+        "PDF Text":"1. A user visits the marketplace frontend to browse products."
+    },
+    {
+        "PDF Text":"2. The frontend makes a request to the Product Data API (powered by Sanity CMS)"
+    },
+    {
+        "PDF Text":"to fetch product listings and details, which are displayed dynamically on the site."
+    },
+    {
+        "PDF Text":"PREPARED BY AMEEN ALAM 3"
+    },
+    {
+        "PDF Text":"DAY 2 PLANNING THE TECHNICAL FOUNDATION"
+    },
+    {
+        "PDF Text":"3. When the user places an order, the order details are sent to Sanity CMS via an"
+    },
+    {
+        "PDF Text":"API request, where the order is recorded."
+    },
+    {
+        "PDF Text":"4. Shipment tracking information is fetched through a Third-Party API and"
+    },
+    {
+        "PDF Text":"displayed to the user in real-time."
+    },
+    {
+        "PDF Text":"5. Payment details are securely processed through the Payment Gateway, and a"
+    },
+    {
+        "PDF Text":"confirmation is sent back to the user and recorded in Sanity CMS."
+    },
+    {
+        "PDF Text":"This detailed workflow ensures students understand how components interact in a real-"
+    },
+    {
+        "PDF Text":"world scenario and how data flows seamlessly between them."
+    },
+    {
+        "PDF Text":"This demonstrates how frontend interactions are supported by Sanity CMS for content"
+    },
+    {
+        "PDF Text":"management, third-party APIs for logistics, and payment gateways for transaction"
+    },
+    {
+        "PDF Text":"processing. Including such details will help you visualize dependencies and plan"
+    },
+    {
+        "PDF Text":"integrations e(cid:431)ectively."
+    },
+    {
+        "PDF Text":"Example System Architecture:"
+    },
+    {
+        "PDF Text":"[Frontend (Next.js)]"
+    },
+    {
+        "PDF Text":"| | |"
+    },
+    {
+        "PDF Text":"[Sanity CMS] [3rd Party APIs]"
+    },
+    {
+        "PDF Text":"Key Workflows to Include:"
+    },
+    {
+        "PDF Text":"1. User Registration:"
+    },
+    {
+        "PDF Text":"o User signs up -> Data is stored in Sanity -> Confirmation sent to the user."
+    },
+    {
+        "PDF Text":"2. Product Browsing:"
+    },
+    {
+        "PDF Text":"o User views product categories -> Sanity API fetches data -> Products"
+    },
+    {
+        "PDF Text":"displayed on frontend."
+    },
+    {
+        "PDF Text":"3. Order Placement:"
+    },
+    {
+        "PDF Text":"o User adds items to the cart -> Proceeds to checkout -> Order details"
+    },
+    {
+        "PDF Text":"saved in Sanity."
+    },
+    {
+        "PDF Text":"4. Shipment Tracking:"
+    },
+    {
+        "PDF Text":"o Order status updates fetched via 3rd-party API -> Displayed to the user."
+    },
+    {
+        "PDF Text":"3. Plan API Requirements"
+    },
+    {
+        "PDF Text":"Based on your data schema, define the API endpoints needed. Include:"
+    },
+    {
+        "PDF Text":"\uf0b7 Q-Commerce Example:"
+    },
+    {
+        "PDF Text":"o Endpoint Name: \/express-delivery-status"
+    },
+    {
+        "PDF Text":"o Method: GET"
+    },
+    {
+        "PDF Text":"PREPARED BY AMEEN ALAM 4"
+    },
+    {
+        "PDF Text":"DAY 2 PLANNING THE TECHNICAL FOUNDATION"
+    },
+    {
+        "PDF Text":"o Description: Fetch real-time delivery updates for perishable items."
+    },
+    {
+        "PDF Text":"o Response Example: { \"orderId\": 123, \"status\": \"In Transit\", \"ETA\": \"15 mins\" }"
+    },
+    {
+        "PDF Text":"\uf0b7 Rental eCommerce Example:"
+    },
+    {
+        "PDF Text":"o Endpoint Name: \/rental-duration"
+    },
+    {
+        "PDF Text":"o Method: POST"
+    },
+    {
+        "PDF Text":"o Description: Add rental details for a specific product."
+    },
+    {
+        "PDF Text":"o Payload: { \"productId\": 456, \"duration\": \"7 days\", \"deposit\": 500 }"
+    },
+    {
+        "PDF Text":"o Response Example: { \"confirmationId\": 789, \"status\": \"Success\" }"
+    },
+    {
+        "PDF Text":"\uf0b7 General eCommerce Example:"
+    },
+    {
+        "PDF Text":"o Endpoint Name: \/products"
+    },
+    {
+        "PDF Text":"o Method: GET"
+    },
+    {
+        "PDF Text":"o Description: Fetch all product details."
+    },
+    {
+        "PDF Text":"o Response Example: { \"id\": 1, \"name\": \"Product A\", \"price\": 100 }"
+    },
+    {
+        "PDF Text":"Ensure API documentation aligns with marketplace-specific workflows to provide clarity"
+    },
+    {
+        "PDF Text":"for implementation."
+    },
+    {
+        "PDF Text":"Based on your data schema, define the API endpoints needed. Include:"
+    },
+    {
+        "PDF Text":"\uf0b7 Endpoint Name: \/products"
+    },
+    {
+        "PDF Text":"o Method: GET"
+    },
+    {
+        "PDF Text":"o Description: Fetch all available products from Sanity."
+    },
+    {
+        "PDF Text":"o Response: Product details (ID, name, price, stock, image)."
+    },
+    {
+        "PDF Text":"\uf0b7 Endpoint Name: \/orders"
+    },
+    {
+        "PDF Text":"o Method: POST"
+    },
+    {
+        "PDF Text":"o Description: Create a new order in Sanity."
+    },
+    {
+        "PDF Text":"o Payload: Customer info, product details, payment status."
+    },
+    {
+        "PDF Text":"\uf0b7 Endpoint Name: \/shipment"
+    },
+    {
+        "PDF Text":"o Method: GET"
+    },
+    {
+        "PDF Text":"o Description: Track order status via third-party API."
+    },
+    {
+        "PDF Text":"o Response: Shipment ID, order ID, status, expected delivery date."
+    },
+    {
+        "PDF Text":"PREPARED BY AMEEN ALAM 5"
+    },
+    {
+        "PDF Text":"DAY 2 PLANNING THE TECHNICAL FOUNDATION"
+    },
+    {
+        "PDF Text":"4. Write Technical Documentation"
+    },
+    {
+        "PDF Text":"Document your system architecture, workflows, and API requirements in a structured"
+    },
+    {
+        "PDF Text":"format. Use headings, diagrams, and bullet points for clarity. Below are examples of"
+    },
+    {
+        "PDF Text":"documents commonly used in the industry to ensure professional standards:"
+    },
+    {
+        "PDF Text":"\uf0b7 System Architecture Document: Describes the overall design and interaction"
+    },
+    {
+        "PDF Text":"between components."
+    },
+    {
+        "PDF Text":"\uf0b7 API Specification Document: Details the endpoints, methods, payloads, and"
+    },
+    {
+        "PDF Text":"responses."
+    },
+    {
+        "PDF Text":"\uf0b7 Workflow Diagram: Visualizes user interactions and data flows."
+    },
+    {
+        "PDF Text":"\uf0b7 Data Schema Design: Defines entities and relationships for databases or CMS."
+    },
+    {
+        "PDF Text":"\uf0b7 Technical Roadmap: Outlines the steps to complete the project, milestones,"
+    },
+    {
+        "PDF Text":"and deliverables."
+    },
+    {
+        "PDF Text":"When complete, your submission should be titled \"Marketplace Technical Foundation"
+    },
+    {
+        "PDF Text":"- [Your Marketplace Name]\" to reflect a professional approach. This document should"
+    },
+    {
+        "PDF Text":"include:"
+    },
+    {
+        "PDF Text":"1. System Architecture Overview:"
+    },
+    {
+        "PDF Text":"o Include a clear diagram showing how the frontend interacts with Sanity CMS"
+    },
+    {
+        "PDF Text":"and third-party APIs."
+    },
+    {
+        "PDF Text":"o Briefly describe the role of each component."
+    },
+    {
+        "PDF Text":"2. Key Workflows:"
+    },
+    {
+        "PDF Text":"o List user workflows, such as \"User adds products to cart,\" with step-by-step"
+    },
+    {
+        "PDF Text":"details of interactions between components."
+    },
+    {
+        "PDF Text":"3. Category-Specific Instructions:"
+    },
+    {
+        "PDF Text":"o Q-Commerce: Focus on real-time inventory updates, delivery SLA tracking,"
+    },
+    {
+        "PDF Text":"and express delivery workflows. Example endpoint: \/express-delivery-status"
+    },
+    {
+        "PDF Text":"to fetch real-time tracking."
+    },
+    {
+        "PDF Text":"o Rental eCommerce: Include workflows for rental duration, condition"
+    },
+    {
+        "PDF Text":"reports, and return management. Example schema field: rentalDuration,"
+    },
+    {
+        "PDF Text":"depositAmount, conditionStatus."
+    },
+    {
+        "PDF Text":"o General eCommerce: Cover workflows for product browsing, cart"
+    },
+    {
+        "PDF Text":"management, and order placement. Example endpoint: \/products for"
+    },
+    {
+        "PDF Text":"fetching product listings."
+    },
+    {
+        "PDF Text":"PREPARED BY AMEEN ALAM 6"
+    },
+    {
+        "PDF Text":"DAY 2 PLANNING THE TECHNICAL FOUNDATION"
+    },
+    {
+        "PDF Text":"4. API Endpoints:"
+    },
+    {
+        "PDF Text":"o Provide a table format:"
+    },
+    {
+        "PDF Text":"\uf0a7 Endpoint: \/products"
+    },
+    {
+        "PDF Text":"\uf0a7 Method: GET"
+    },
+    {
+        "PDF Text":"\uf0a7 Purpose: Fetches all product details"
+    },
+    {
+        "PDF Text":"\uf0a7 Response Example: { \"id\": 1, \"name\": \"Product A\", \"price\": 100 }"
+    },
+    {
+        "PDF Text":"5. Sanity Schema Example:"
+    },
+    {
+        "PDF Text":"Example for Product:"
+    },
+    {
+        "PDF Text":"export default {"
+    },
+    {
+        "PDF Text":"name: 'product',"
+    },
+    {
+        "PDF Text":"type: 'document',"
+    },
+    {
+        "PDF Text":"fields: ["
+    },
+    {
+        "PDF Text":"{ name: 'name', type: 'string', title: 'Product Name' },"
+    },
+    {
+        "PDF Text":"{ name: 'price', type: 'number', title: 'Price' },"
+    },
+    {
+        "PDF Text":"{ name: 'stock', type: 'number', title: 'Stock Level' }"
+    },
+    {
+        "PDF Text":"]"
+    },
+    {
+        "PDF Text":"};"
+    },
+    {
+        "PDF Text":"This structured documentation will serve as a blueprint for your project and a"
+    },
+    {
+        "PDF Text":"professional reference for clients or stakeholders."
+    },
+    {
+        "PDF Text":"5. Collaborate and Refine"
+    },
+    {
+        "PDF Text":"Collaboration is a key professional skill that will not only enhance the quality of your"
+    },
+    {
+        "PDF Text":"project but also prepare you for real-world teamwork. Follow these guidelines to"
+    },
+    {
+        "PDF Text":"collaborate e(cid:431)ectively while ensuring individual submissions:"
+    },
+    {
+        "PDF Text":"1. Group Discussions:"
+    },
+    {
+        "PDF Text":"o Organize brainstorming sessions with your peers to exchange ideas and"
+    },
+    {
+        "PDF Text":"solve common challenges."
+    },
+    {
+        "PDF Text":"o Use tools like Slack, Discord, or Google Meet to facilitate discussions."
+    },
+    {
+        "PDF Text":"o Focus on sharing innovative approaches to system architecture and API"
+    },
+    {
+        "PDF Text":"design."
+    },
+    {
+        "PDF Text":"2. Peer Review:"
+    },
+    {
+        "PDF Text":"o Share your technical plans with teammates and mentors for constructive"
+    },
+    {
+        "PDF Text":"feedback."
+    },
+    {
+        "PDF Text":"o Review each other's workflows, data schemas, and documentation to"
+    },
+    {
+        "PDF Text":"identify potential improvements."
+    },
+    {
+        "PDF Text":"PREPARED BY AMEEN ALAM 7"
+    },
+    {
+        "PDF Text":"DAY 2 PLANNING THE TECHNICAL FOUNDATION"
+    },
+    {
+        "PDF Text":"3. Version Control:"
+    },
+    {
+        "PDF Text":"o Use GitHub or similar platforms to track changes and collaborate on"
+    },
+    {
+        "PDF Text":"diagrams or drafts."
+    },
+    {
+        "PDF Text":"o Make sure to commit changes regularly and write clear commit messages"
+    },
+    {
+        "PDF Text":"to maintain transparency."
+    },
+    {
+        "PDF Text":"4. Divide and Conquer:"
+    },
+    {
+        "PDF Text":"o While brainstorming can be done as a group, ensure that each team"
+    },
+    {
+        "PDF Text":"member works on their own document for submission."
+    },
+    {
+        "PDF Text":"o Encourage diverse perspectives by allowing individual creativity within a"
+    },
+    {
+        "PDF Text":"shared framework."
+    },
+    {
+        "PDF Text":"5. Submission Requirements:"
+    },
+    {
+        "PDF Text":"o Remember, submissions must be individual. Even if you collaborate,"
+    },
+    {
+        "PDF Text":"ensure that your final document reflects your unique understanding and"
+    },
+    {
+        "PDF Text":"approach."
+    },
+    {
+        "PDF Text":"By practicing professional collaboration, you will learn how to balance teamwork and"
+    },
+    {
+        "PDF Text":"individual accountability, a critical skill for your career."
+    },
+    {
+        "PDF Text":"Work with your peers to review and refine your technical plan. Discuss:"
+    },
+    {
+        "PDF Text":"\uf0b7 Innovative approaches to solving common challenges."
+    },
+    {
+        "PDF Text":"\uf0b7 Feedback on your system architecture or API design."
+    },
+    {
+        "PDF Text":"\uf0b7 Suggestions for improving scalability or performance."
+    },
+    {
+        "PDF Text":"Key Outcome of Day 2"
+    },
+    {
+        "PDF Text":"By the end of Day 2, students should have achieved the following outcomes:"
+    },
+    {
+        "PDF Text":"1. Technical Plan Aligned with Business Goals:"
+    },
+    {
+        "PDF Text":"o A comprehensive plan that reflects the unique requirements of their"
+    },
+    {
+        "PDF Text":"marketplace type (Q-Commerce, Rental eCommerce, or General"
+    },
+    {
+        "PDF Text":"eCommerce)."
+    },
+    {
+        "PDF Text":"2. System Architecture Visualized:"
+    },
+    {
+        "PDF Text":"o A clear diagram illustrating how the frontend interacts with Sanity CMS"
+    },
+    {
+        "PDF Text":"and third-party APIs."
+    },
+    {
+        "PDF Text":"o Architecture should include specific workflows tailored to their"
+    },
+    {
+        "PDF Text":"marketplace type:"
+    },
+    {
+        "PDF Text":"PREPARED BY AMEEN ALAM 8"
+    },
+    {
+        "PDF Text":"DAY 2 PLANNING THE TECHNICAL FOUNDATION"
+    },
+    {
+        "PDF Text":"\uf0a7 Q-Commerce: Real-time inventory updates and SLA tracking."
+    },
+    {
+        "PDF Text":"\uf0a7 Rental eCommerce: Rental duration, deposit handling, and"
+    },
+    {
+        "PDF Text":"condition tracking."
+    },
+    {
+        "PDF Text":"\uf0a7 General eCommerce: Standard workflows like product browsing,"
+    },
+    {
+        "PDF Text":"cart management, and order placement."
+    },
+    {
+        "PDF Text":"3. Detailed API Requirements Documented:"
+    },
+    {
+        "PDF Text":"o A list of endpoints, methods, and expected responses, including"
+    },
+    {
+        "PDF Text":"category-specific examples."
+    },
+    {
+        "PDF Text":"4. Sanity Schemas Drafted:"
+    },
+    {
+        "PDF Text":"o Schemas designed to handle key data entities such as products, orders,"
+    },
+    {
+        "PDF Text":"customers, and additional fields relevant to the specific marketplace"
+    },
+    {
+        "PDF Text":"type."
+    },
+    {
+        "PDF Text":"5. Collaborative Feedback Incorporated:"
+    },
+    {
+        "PDF Text":"o Input from peers and mentors to refine and enhance their technical"
+    },
+    {
+        "PDF Text":"documentation and plans."
+    },
+    {
+        "PDF Text":"6. Portfolio-Ready Submission:"
+    },
+    {
+        "PDF Text":"o A polished, professional document that can be used in job interviews or"
+    },
+    {
+        "PDF Text":"to showcase their skills in startup or client presentations."
+    },
+    {
+        "PDF Text":"This preparation ensures that students have a solid foundation to begin implementation"
+    },
+    {
+        "PDF Text":"on Day 3, setting them up for success in building a fully functional and tailored"
+    },
+    {
+        "PDF Text":"marketplace."
+    },
+    {
+        "PDF Text":"Industry Best Practices to Emphasize"
+    },
+    {
+        "PDF Text":"1. Plan Before You Code:"
+    },
+    {
+        "PDF Text":"o Always create a clear roadmap before starting technical work to avoid"
+    },
+    {
+        "PDF Text":"unnecessary rework."
+    },
+    {
+        "PDF Text":"2. Use the Right Tools:"
+    },
+    {
+        "PDF Text":"o Leverage tools like Sanity CMS and APIs to reduce backend complexity"
+    },
+    {
+        "PDF Text":"while focusing on frontend innovation. Sanity CMS o(cid:431)ers customizable"
+    },
+    {
+        "PDF Text":"schemas, built-in APIs, and real-time collaboration, allowing frontend"
+    },
+    {
+        "PDF Text":"developers to manage data e(cid:431)ectively. These features reduce repetitive"
+    },
+    {
+        "PDF Text":"backend tasks, enabling teams to focus on building dynamic and user-"
+    },
+    {
+        "PDF Text":"friendly interfaces."
+    },
+    {
+        "PDF Text":"PREPARED BY AMEEN ALAM 9"
+    },
+    {
+        "PDF Text":"DAY 2 PLANNING THE TECHNICAL FOUNDATION"
+    },
+    {
+        "PDF Text":"3. Collaboration:"
+    },
+    {
+        "PDF Text":"o Share your plans with peers and mentors for feedback."
+    },
+    {
+        "PDF Text":"4. Focus on User Experience:"
+    },
+    {
+        "PDF Text":"o Ensure that the technical foundation supports a seamless and intuitive"
+    },
+    {
+        "PDF Text":"user journey."
+    },
+    {
+        "PDF Text":"Submission Guidelines"
+    },
+    {
+        "PDF Text":"Submission Title:"
+    },
+    {
+        "PDF Text":"\uf0b7 \"Marketplace Technical Foundation - [Your Marketplace Name]\""
+    },
+    {
+        "PDF Text":"Submission Approach:"
+    },
+    {
+        "PDF Text":"1. Repository Submission:"
+    },
+    {
+        "PDF Text":"o Create a dedicated folder named \"Documentation\" in your repository."
+    },
+    {
+        "PDF Text":"o Upload your technical document and any associated diagrams or"
+    },
+    {
+        "PDF Text":"schemas to this folder."
+    },
+    {
+        "PDF Text":"2. Document Structure:"
+    },
+    {
+        "PDF Text":"o Follow the industry-standard format provided above."
+    },
+    {
+        "PDF Text":"o Include collaboration notes if you worked in a group, briefly summarizing"
+    },
+    {
+        "PDF Text":"how ideas were shared and feedback was incorporated."
+    },
+    {
+        "PDF Text":"3. File Naming Convention:"
+    },
+    {
+        "PDF Text":"o Ensure all files are named clearly, e.g., SystemArchitecture_Day2.pdf,"
+    },
+    {
+        "PDF Text":"APIEndpoints.xlsx, SanitySchema.js."
+    },
+    {
+        "PDF Text":"4. Review and Quality Check:"
+    },
+    {
+        "PDF Text":"o Double-check your diagrams, schemas, and written content for clarity"
+    },
+    {
+        "PDF Text":"and accuracy."
+    },
+    {
+        "PDF Text":"o Collaborate with peers or mentors for feedback to refine your submission."
+    },
+    {
+        "PDF Text":"This structured submission will help you showcase your ability to create professional-"
+    },
+    {
+        "PDF Text":"level technical documents, a critical skill for future projects and client interactions."
+    },
+    {
+        "PDF Text":"What\u2019s Next?"
+    },
+    {
+        "PDF Text":"On Day 3, we will provide the API as a reference point. This API can be utilized to check"
+    },
+    {
+        "PDF Text":"schema structure or migrate the schema into your Sanity project. While the provided"
+    },
+    {
+        "PDF Text":"PREPARED BY AMEEN ALAM 10"
+    },
+    {
+        "PDF Text":"DAY 2 PLANNING THE TECHNICAL FOUNDATION"
+    },
+    {
+        "PDF Text":"API will be readonly, you have the flexibility to create your own data schema in Sanity for"
+    },
+    {
+        "PDF Text":"GET, POST, UPDATE, PATCH, and DELETE operations. Specific guidance includes:"
+    },
+    {
+        "PDF Text":"\uf0b7 Q-Commerce: Use the provided API schema to manage perishable goods and"
+    },
+    {
+        "PDF Text":"SLA tracking."
+    },
+    {
+        "PDF Text":"\uf0b7 Rental eCommerce: Design schemas to handle rental-specific fields like"
+    },
+    {
+        "PDF Text":"duration, deposit, and condition reports."
+    },
+    {
+        "PDF Text":"\uf0b7 General eCommerce: Implement standard workflows like inventory"
+    },
+    {
+        "PDF Text":"management, order placement, and payment integration."
+    },
+    {
+        "PDF Text":"The choice is yours\u2014use the provided API schema or innovate with your own to best"
+    },
+    {
+        "PDF Text":"suit your marketplace's unique requirements."
+    },
+    {
+        "PDF Text":"Stay focused, think critically, and aim for innovation!"
+    },
+    {
+        "PDF Text":"PREPARED BY AMEEN ALAM 11"
+    }
+]
